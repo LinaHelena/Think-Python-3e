@@ -1,0 +1,59 @@
+#MY OWN REVIEW OF chap 1-3
+
+def print_favorite_number(fav):
+    print("My favorite number is", fav)
+
+print_favorite_number(3)
+
+
+def print_favorite_color(col):
+    print("My favorite color is", col)
+
+# Call the function here
+print_favorite_color("blue")
+
+def print_country(cou):
+    print("I live in", cou)
+
+print_country("France")
+
+
+def say_message(message):
+    print(message)
+
+say_message("Python is fun")
+
+
+def print_my_name(me):
+    print("My name is", me)
+
+print_my_name("Lina")
+
+
+def print_person(n, a):
+    print("Name:", n, "Age:", a)
+print_person("Lina", 44)
+
+
+def print_great_name(name):
+    print("Hello,", name,"!")
+print_great_name("Lina")
+
+def repeat_word(word, times):
+    print((word + ' ') * times)
+
+repeat_word("hello", 3)
+
+
+#for loop - A for loop lets you repeat a block of code multiple times.
+
+# Range(times) creates a sequence of numbers starting from 0 up to times - 1.
+for i in range(3):
+  print(i)
+
+def repeat_word(word, times):
+    for i in range(times):  # i will go from 0 to times-1
+        print(word)  # print the word each time
+
+repeat_word("hello", 3)
+
